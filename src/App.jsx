@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // importing pages
@@ -46,6 +47,23 @@ function App() {
           <Route path="*" element={<Error/>}/>
       </Routes>
     </Router>
+=======
+import React from "react";
+import Welcome from "./pages/Welcome";
+import Signup from "./pages/Signup";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+function App() {
+  return (
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Welcome />} />
+          <Route path="/signup" element={<Signup />} />
+        </Routes>
+      </Router>
+    </>
+>>>>>>> bc64162c9c4bb2b553e9d211c0e1a1b7ee7ab9a5
   );
 }
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState } from "react";
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { db } from "../firebase"; // Assuming you have your Firebase config file
@@ -178,3 +179,16 @@ const SignUp = () => {
 };
 
 export default SignUp;
+=======
+import React from "react";
+
+export default function Signup() {
+  return (
+    <>
+      <div className="bg-gradient-to-r from-blue-50 to-blue-100 min-h-screen flex flex-col justify-center items-center">
+        <h1>Hello Signup</h1>
+      </div>
+    </>
+  );
+}
+>>>>>>> bc64162c9c4bb2b553e9d211c0e1a1b7ee7ab9a5

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,3 +6,6 @@
 body {
     font-family:  "Figtree", serif;
   }
+=======
+@import "tailwindcss";
+>>>>>>> bc64162c9c4bb2b553e9d211c0e1a1b7ee7ab9a5
